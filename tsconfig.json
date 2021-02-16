@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "remora-lib": [
+        "dist/remora-lib"
+      ],
+      "remora-lib/*": [
+        "dist/remora-lib/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
